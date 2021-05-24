@@ -1,12 +1,92 @@
-:root {
+root {
   font: 16px / 1 sans-serif;
 }
-
 html {
   height: 100%;
 }
-
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: grey;
+}
+header {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: white;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  padding-left: 24px;
+  padding-right: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header img {
+  margin-right: 24px;
+}
+.spaceAfter {
+  margin-right: 16px;
+}
+.after {
+  margin-right: 16px;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-items: center;
+  justify-content: space-between;
+}
+@media all and (max-width: 765px) {
+  ul li a {
+    visibility: collapse;
+  }
+}
+div {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin-left: 24px;
+  padding-right: 24px;
+}
+p {
+  height: 40px;
+}
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(245, 245, 245);
+}
+div ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media all and (min-width: 765px) {
+  div ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+@media all and (min-width: 1013px) {
+  div ul {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+@media all and (min-width: 1275px) {
+  div ul {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+}
+div img {
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 0.5rem;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.cat {
+  margin-bottom: 40px;
+  margin-right: 16px;
+  margin-left: 16px;
 }
