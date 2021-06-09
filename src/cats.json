@@ -1,1 +1,74 @@
-//List of cats
+[
+  {
+    "id": 1,
+    "i": "141",
+    "name": "Umbrellatocat",
+    "image": "https://octodex.github.com//images/puddle_jumper_octodex.jpg"
+  },
+  {
+    "id": 2,
+    "i": "139",
+    "name": "Surftocat",
+    "image": "https://octodex.github.com//images/surftocat.png"
+  },
+  {
+    "id": 3,
+    "i": "137",
+    "name": "Scubatocat",
+    "image": "https://octodex.github.com//images/scubatocat.png"
+  },
+  {
+    "id": 4,
+    "i": "123",
+    "name": "Inflatocat",
+    "image": "https://octodex.github.com//images/inflatocat.png"
+  },
+  {
+    "id": 5,
+    "i": "104",
+    "name": "Labtocat",
+    "image": "https://octodex.github.com//images/labtocat.png"
+  },
+  {
+    "id": 6,
+    "i": "95",
+    "name": "Kimonotocat",
+    "image": "https://octodex.github.com//images/kimonotocat.png"
+  },
+  {
+    "id": 7,
+    "i": "79",
+    "name": "Minion",
+    "image": "https://octodex.github.com//images/minion.png"
+  },
+  {
+    "id": 8,
+    "i": "77",
+    "name": "Octofez",
+    "image": "https://octodex.github.com//images/octofez.png"
+  },
+  {
+    "id": 9,
+    "i": "71",
+    "name": "Electrocat",
+    "image": "https://octodex.github.com//images/electrocat.png"
+  },
+  {
+    "id": 10,
+    "i": "64",
+    "name": "Nemesis",
+    "image": "https://octodex.github.com//images/herme-t-crabb.png"
+  },
+  {
+    "id": 11,
+    "i": "53",
+    "name": "Father Timeout",
+    "image": "https://octodex.github.com//images/father_timeout.jpg"
+  },
+  {
+    "id": 12,
+    "i": "39",
+    "name": "Cloud",
+    "image": "https://octodex.github.com//images/cloud.jpg"
+  }
+]
